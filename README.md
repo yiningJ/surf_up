@@ -12,7 +12,7 @@ After providing analysis on weather information about active stations, W. Avy wo
 
 ## Summary
 On average both months are not hot enough for people to comfortably consume icecream and go surfing. And the lowest temperature in both months are way too low for summer activities.
-additional queries
+additional queries:/
 df = pd.DataFrame(results, columns=['date','Temps'])
 df.set_index(df['date'], inplace=True)
 df = df.sort_index()
